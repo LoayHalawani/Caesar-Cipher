@@ -3,10 +3,11 @@ import java.util.*;
 public class CaeserCipher {
 	static int computeShift(char key) {
 		char[] alpha = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-		
+		key = Character.toLowerCase(key);
+
 		int shift = 0;
 		for(int i = 0; i < alpha.length; i ++) {
-			if(Character.toLowerCase(key) == alpha[i]) {
+			if(key == alpha[i]) {
 				shift = i;
 				break;
 			}
@@ -20,7 +21,7 @@ public class CaeserCipher {
 		
 		String output = "";
 		for(int i = 0; i < input.length(); i ++) {
-			char temp = 'a';
+			char temp = ' ';
 			if(Character.isUpperCase(input.charAt(i))) {
 				temp = Character.toLowerCase(input.charAt(i));
 				for(int j = 0; j < alpha.length; j ++) {
@@ -123,7 +124,7 @@ public class CaeserCipher {
 
 		int shift = computeShift(key);
 		
-		System.out.println("\nTo encrypt, please enter the letter \'e\' or \'E\'\nTo decrypt please enter the letter \'d\' or \'D\'");
+		System.out.println("\nTo encrypt, please enter the letter \'e\' or \'E\'.\nTo decrypt please enter the letter \'d\' or \'D\'.");
 		char ans = scan.next().charAt(0);
 		
 		String output = "";
