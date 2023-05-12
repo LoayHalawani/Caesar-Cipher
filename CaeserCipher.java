@@ -156,7 +156,7 @@ public class CaeserCipher
 
 		int shift = computeShift(key);
 		
-		System.out.println("\nTo encrypt, please enter the letter \'e\' or \'E\'.\nTo decrypt please enter the letter \'d\' or \'D\'.");
+		System.out.println("\nTo encrypt, please enter the letter \'e\' or \'E\'\nTo decrypt please enter the letter \'d\' or \'D\'");
 		char ans = scan.next().charAt(0);
 		
 		String output = "";
