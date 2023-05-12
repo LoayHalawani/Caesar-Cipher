@@ -37,7 +37,7 @@ public class CaeserCipher
 					{
 						if(j + shift > alpha.length - 1)
 						{
-							int k = (j + shift) - (alpha.length - 1) - 1;
+							int k = (j + shift) - alpha.length;
 							temp = alpha[k];
 						}
 						else
@@ -58,7 +58,7 @@ public class CaeserCipher
 					{
 						if(j + shift > alpha.length - 1)
 						{
-							int k = (j + shift) - (alpha.length - 1) - 1;
+							int k = (j + shift) - alpha.length;
 							temp = alpha[k];
 						}
 						else
@@ -96,7 +96,7 @@ public class CaeserCipher
 					{
 						if(j - shift < 0)
 						{
-							int k = (j - shift) + (alpha.length - 1) + 1;
+							int k = (j - shift) + alpha.length;
 							temp = alpha[k];
 						}
 						else
@@ -117,7 +117,7 @@ public class CaeserCipher
 					{
 						if(j - shift < 0)
 						{
-							int k = (j - shift) + (alpha.length - 1) + 1;
+							int k = (j - shift) + alpha.length;
 							temp = alpha[k];
 						}
 						else
