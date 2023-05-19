@@ -112,7 +112,7 @@ public class CaeserCipher {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("\nPlease enter input to cipher/decipher: ");
+		System.out.println("\nPlease enter input to encrypt/decrypt: ");
 		String input = scan.nextLine();
 		
 		System.out.println("\nPlease enter key letter: ");
