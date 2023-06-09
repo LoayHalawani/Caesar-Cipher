@@ -112,7 +112,7 @@ public class CaeserCipher {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("\nPlease enter input to encrypt/decrypt: ");
+		System.out.println("\nPlease enter input to encrypt or decrypt: ");
 		String input = scan.nextLine();
 		
 		System.out.println("\nPlease enter key letter: ");
@@ -125,7 +125,7 @@ public class CaeserCipher {
 
 		int shift = computeShift(key);
 		
-		System.out.println("\nTo encrypt, please enter the letter \'e\' or \'E\'\nTo decrypt please enter the letter \'d\' or \'D\'");
+		System.out.println("\nTo encrypt, please enter the letter \'e\' or \'E\'\nTo decrypt, please enter the letter \'d\' or \'D\'");
 		char ans = scan.next().charAt(0);
 		
 		String output = "";
@@ -138,7 +138,7 @@ public class CaeserCipher {
 			System.out.println("\nDecipher: " + output);
 		}
 		else {
-			System.err.println("\nERROR: Invalid choice letter! Please try again.");
+			System.err.println("\nERROR: Invalid choice! Please try again.");
 			System.exit(0);
 		}
 
