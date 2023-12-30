@@ -9,7 +9,7 @@ This implementation takes a letter instead of an integer as key. A key of "A" or
 - The latest version of Java Compiler (JAVAC).
 - Any text editor.
 
-# Compiling & Executing
+# Compile & Execute
 1. Open any terminal
 2. Navigate to the directory of the downloaded Java file
 3. To compile the Java code, run 'javac CaeserCipher.java'
