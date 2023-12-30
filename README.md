@@ -5,8 +5,8 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 This implementation takes a letter instead of an integer as key. A key of "A" or "a" indicates a shift value of 0..., and a key of "Z" or "z" indicates a shift value of 25 respectively. Numbers, special characters, and spaces are kept as is after encryption or decryption.
 
 # Prerequisites
-- Java/JDK 21 or above
-- The javac compiler
+- The latest version of Java/JDK
+- The latest version of the Java Compiler (JAVAC)
 - Any text editor
 
 # Compiling & Executing
