@@ -6,8 +6,8 @@ This implementation takes a letter instead of an integer as key. A key of "A" or
 
 # Prerequisites
 - Java/JDK 21 or above.
-- javac compiler.
-- A text editor.
+- The javac compiler.
+- Any text editor.
 
 # Compiling & Executing
 1. Open any terminal.
