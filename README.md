@@ -5,12 +5,12 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
 This implementation takes a letter instead of an integer as key. A key of "A" or "a" indicates a shift value of 0..., and a key of "Z" or "z" indicates a shift value of 25 respectively. Numbers, special characters, and spaces are kept as is after encryption or decryption.
 
 # Prerequisites
-- Java/JDK 21 or above.
-- The javac compiler.
-- Any text editor.
+- Java/JDK 21 or above
+- The javac compiler
+- Any text editor
 
 # Compiling & Executing
-1. Open any terminal.
-2. Navigate to the location of the Java file.
-3. To compile the Java file, run 'javac CaeserCipher.java'.
-4. To execute the compiled Java code, run 'java CaeserCipher'.
+1. Open any terminal
+2. Navigate to the location of the Java file
+3. To compile the Java file, run 'javac CaeserCipher.java'
+4. To execute the compiled Java code, run 'java CaeserCipher'
