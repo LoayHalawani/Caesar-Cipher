@@ -7,7 +7,6 @@ This implementation takes a letter instead of an integer as key. A key of "A" or
 # Prerequisites
 - The latest version of Java/JDK.
 - The latest version of Java Compiler (JAVAC).
-- Any text editor.
 
 # Compile & Execute
 1. Open any terminal.
