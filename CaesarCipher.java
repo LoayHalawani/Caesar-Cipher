@@ -22,7 +22,7 @@ public class CaesarCipher {
 			if(Character.isUpperCase(input.charAt(i))) {
 				temp = Character.toLowerCase(input.charAt(i));
 				for(int j = 0; j < alpha.length; j ++) {
-					if(temp == alpha[j]) {
+					if(temp == alpha[j]) {6
 						if(j + shift > alpha.length - 1) {
 							int k = (j + shift) - alpha.length;
 							temp = alpha[k];
