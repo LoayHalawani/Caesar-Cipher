@@ -14,5 +14,5 @@ This implementation takes a letter instead of an integer as key. A key of "A" or
    - cd Caesar-Cipher
 
 2. Compile & run
-   - javac Caesar-Cipher.javac
+   - javac Caesar-Cipher.java
    - java Caesar-Cipher
