@@ -6,7 +6,7 @@ In cryptography, the Caesar cipher is one of the simplest and most widely known 
 
 This implementation takes a letter instead of an integer as key. A key of "A" or "a" indicates a shift value of 0..., and a key of "Z" or "z" indicates a shift value of 25 respectively. Numbers, special characters, and spaces are not encrypted/decrypted.
 
-# How-to-run
+# Usage
 
 1. Clone the repository
 
